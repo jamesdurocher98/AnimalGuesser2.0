@@ -1,25 +1,25 @@
-animal		backbone  	liveOnLand  	giveBirth  	breathWithLungs		has4legs	canFly
-Toad		true		true		true		false			true		false	
-Salamander 	true		true		true		false			true		false
-Snake		true		true		true		true			false		false
-Turtle		true		true		true		true			true		false		
-Lizard		true		true		true		true			true		false
-Dinosaur	true		true		true		true			true		false
-Chameleon	true		true		true		true			true		false
-Crocodile	true		true		true		true			true		false
-Gekko		true		true		true		true			true		false
-Bat		true		true		true		true			true		true
-Rat		true		true		true		true			true		false
-Monkey		true		true		true 		true			true		false
-Panda		true		true		true 		true			true		false
-Bear		true		true		true 		true			true		false
-Squirrel	true		true		true 		true			true		false
-Deer		true		true		true 		true			true		false
-Cat		true		true		true 		true			true		false
-Dog		true		true		true 		true			true		false
-Pig		true		true		true 		true			true		false
-Horse		true		true		true 		true			true		false
-Shark		true		false		true 		false			false		false
-Whale		true		false		true 		false			false		false
-Goldfish	true		false		true 		false			false		false
-Salmon		true		false		true 		false			false		false
+animal		backbone  	liveOnLand  	giveBirth  	breathWithLungs		has4legs	canFly   warmblooded   breathethroughskin    canSwim    scales 
+Toad		true		true		false 		false			true		false	 false    	true 		      false  	false 
+Salamander 	true		true		false		false			true		false    false      	true 		      false 	false 
+Snake		true		true		true		true			false		false    false		false		      false	true 
+Turtle		true		true		false		true			true		false	 false		false                 true  	true 
+Lizard		true		true		false		true			true		false	 false		false		      false 	true 
+Dinosaur	true		true		false		true			true		false    false		false	              false	true
+Chameleon	true		true		true		true			true		false    false		false	              false	true 
+Crocodile	true		true		false		true			true		false    true 		false	              true	true 
+Gekko		true		true		false		true			true		false    true 		false		      false	true 
+Bat		true		true		true		true			true		true     true 		false		      false	false
+Rat		true		true		true		true			true		false    true  		false		      false	false
+Monkey		true		true		true 		true			true		false    true 		false		      false	false
+Panda		true		true		true 		true			true		false    true 		false		      false	false
+Bear		true		true		true 		true			true		false    true 		false		      false	false
+Squirrel	true		true		true 		true			true		false    true 		false		      false	false
+Deer		true		true		true 		true			true		false    true 		false	              false	false
+Cat		true		true		true 		true			true		false    true 		false		      false	false
+Dog		true		true		true 		true			true		false    true 		false		      false	false
+Pig		true		true		true 		true			true		false    true 		false		      false	false
+Horse		true		true		true 		true			true		false    true 		false		      false	false
+Shark		true		false		false		false			false		false    false 		false		      true 	true
+Whale		true		false		false		true			false		false    false 		false		      true 	true
+Goldfish	true		false		false		false			false		false    false 		false		      true 	true
+Salmon		true		false		false		false			false		false    false 		false		      true 	true 
