@@ -107,7 +107,7 @@ public class AnimalGuesser20 {
                     }
                     else{
                         System.out.println("");
-                        System.out.println("***Please type 'yes' or 'no'***");
+                        System.out.print("***Please type 'yes' or 'no'***");
                         System.out.println("");
                     }
                 }
@@ -127,6 +127,9 @@ public class AnimalGuesser20 {
                 if (q==9) {
                     if (! solved){
                         solvable=false;
+                        System.out.println("");
+                        System.out.print("Sorry, I cannot guess your animal");
+                        System.out.println("");
                     }
                 }
                 
