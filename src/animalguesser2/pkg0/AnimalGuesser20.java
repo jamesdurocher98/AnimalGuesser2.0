@@ -10,7 +10,7 @@ public class AnimalGuesser20 {
     public static void main(String[] args) throws IOException {
         
         //define maximums
-        int maxAnimals = 100; //rows
+        int maxAnimals = 25; //rows
         int maxAttr = 10; //cols
         
         //define arrays
@@ -43,11 +43,11 @@ public class AnimalGuesser20 {
         
         //show all data
         for (int i =0; i < numAnimals; i++) {
-            System.out.print(animals[i]);
+            //System.out.print(animals[i]);
             for (int j=0; j<maxAttr; j++) {
-              System.out.print(", "+attributeNames[j]+" = "+attributes[i][j]);
+              //System.out.print(", "+attributeNames[j]+" = "+attributes[i][j]);
             }
-            System.out.println("");
+            //System.out.println("");
         }
         
         //*****play game here******
@@ -106,7 +106,9 @@ public class AnimalGuesser20 {
                         validInput = true;
                     }
                     else{
-                        System.out.println("\n***Please type 'yes' or 'no'***\n");
+                        System.out.println("");
+                        System.out.println("***Please type 'yes' or 'no'***");
+                        System.out.println("");
                     }
                 }
                 
