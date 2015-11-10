@@ -125,7 +125,9 @@ public class AnimalGuesser20 {
                 
                 //if still not solved after you ask all questions mark as unsolvable
                 if (q==9) {
-                    if (! solved) solvable=false;
+                    if (! solved){
+                        solvable=false;
+                    }
                 }
                 
             }
